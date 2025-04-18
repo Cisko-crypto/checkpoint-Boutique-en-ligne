@@ -1,0 +1,48 @@
+
+
+/*Pour la couleur lespacement et la position du section produit*/
+
+   
+.ma-section {
+    background-color: lightgray;
+    border-color: black;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;        
+    justify-content: center;
+    padding: 20px
+
+}
+  
+.item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.item {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 200px;            
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    text-align: center;
+}
+
+
+/*responsivité de l'écran*/
+
+CSS
+@media screen and (max-width: 300px) {
+    
+}
